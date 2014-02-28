@@ -16,6 +16,7 @@
 		font-style:normal;
 		line-height:1;
 	}
+
 	div { 
 		position:relative; 	
 	}
@@ -33,25 +34,6 @@
 
 	}
 
-	.canvasjs-chart-canvas {
-		z-index: 0;
-
-	}
-		
-	#chartContainer_all_votes_all_posts {
-		top: 50px;
-		z-index: 2;
-	}
-	
-	#chartContainer_your_votes_all_posts {
-		top: 500px;
-		z-index: 2;
-	}
-
-	#chartContainer_all_votes_your_posts {
-		top: 950px;
-		z-index: 2;
-	}
 	
 	/*hr { display:block;float:none;clear:both;margin:1em auto;color:#ccc;border:solid #ccc;border-width:1px 0 0;height:0;padding:0; }*/
 	h2 {
@@ -240,6 +222,129 @@ div.signup_partial {
 .info p {
 	font-size: 1.75;
 }
+/* CAN'T TOUCH THIS!!! */
+	#good_btn {
+		float: left;
+		z-index: 10;
+	}
 
+	#evil_btn {
+		float: right;
+		z-index: 10;
+	}
 
+	#good_btn:hover{
+		background-color: #FFF;
+		color: #000;
+	}
+
+	#evil_btn:hover{
+		background-color: #000;
+		color: #FFF;
+	}
+
+	.good_post {
+		float: left;
+		z-index: 10;
+		margin-left: 10px;
+		font-size: 20px;
+	}
+
+	.evil_post {
+		float: left;
+		z-index: 10;
+		margin-left: 200px;
+		font-size: 20px;
+	}
+
+	.good_comment {
+		float: left;
+		z-index: 10;
+		margin-left: 20px;
+		font-size: 20px;
+	}
+
+	.evil_comment {
+		float: left;
+		z-index: 10;
+		margin-left: 250px;
+		font-size: 20px;
+	}
+
+	.addCommnet {
+		padding-top: 100px;
+		margin-top: 100px 0 50px 0;
+	}
+
+	#chartContainer_all_votes_all_posts {
+		top: 50px;
+		z-index: 2;
+	}
+	
+	#chartContainer_your_votes_all_posts {
+		top: 500px;
+		z-index: 2;
+	}
+
+	#chartContainer_all_votes_your_posts {
+		top: 950px;
+		z-index: 2;
+	}
+
+	/* overiding masonary col4 img width*/
+	.col4 img {
+			max-width: 430px;
+		}
+
+	.col4 {
+		width: 450px;
+		padding: 10px;
+		}
+
+	.canvasjs-chart-canvas {
+		height: 100px;
+		width: 445px;
+		/*padding-bottom: 10px;*/
+		margin: -50px -10px -10px -10px;
+		z-index: 0;
+	}
+
+	.good_evil {
+			padding: 10px 0;
+		}
+
+	.good_evil_comment {
+		padding: 5px 0;
+	}
+
+	form {
+    padding-top: 50px;
+    }
+
+  .comment {
+   	/*padding: 10px;*/
+   	float: left;
+   	width: 430px;
+   }
+
+   .button {
+  border-style: solid;
+  /*border-width: 1px;*/
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: bold;
+  line-height: 1;
+  margin: 0 0 1.25em;
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  padding-top: 0.75em;
+  padding-right: 1.5em;
+  padding-bottom: 0.8125em;
+  padding-left: 1.5em;
+  font-size: 1em;
+  background-color: #7f8c8d;
+  border-color: #7f8c8d;
+  color: #333333; }
 
