@@ -1,28 +1,5 @@
-== README
+Good or Evil
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This web application was created as a platform for users to get feedback on an issue they wanted to be rated as either good or evil, anonymously. My idea was to go beyond the standard rating system of likes or thumbs-up common in other social sharing sites. There are some things that people have seen, done, or even thought about, and that they would want other people's opinion. An opnion that is more meaningful than a like or dislike. Is this good, or is this evil?
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Good or Evil was built using Ruby on Rails. I handled the user content mangagment with Carrierwave and Amazon S3. The file uploads were enhanced by RMagick to generate meme style posts, and displayed using jQuery Masonry for Rails. The styling was done using CSS, HTML, Javascript, and Foundation was the front-end framework.
