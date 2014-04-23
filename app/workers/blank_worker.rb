@@ -21,6 +21,11 @@ class BlankWorker
     }
     img[0].write("#{Rails.root}/public/uploads/post/photo/#{post.id}/#{rmagick_bg_name}.jpg")
 
+    AWS.config({
+                 :access_key_id     => ENV['S3_KEY'],
+                 :secret_access_key => ENV['S3_SECRET']
+    })
+
     s3 = AWS::S3.new
     bucket_name = "goodevil"
     file_name = "#{Rails.root}/public/uploads/post/photo/#{post.id}/#{rmagick_bg_name}.jpg"

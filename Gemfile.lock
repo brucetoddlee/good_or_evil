@@ -28,6 +28,9 @@ GEM
     addressable (2.3.5)
     arel (4.0.2)
     atomic (1.1.14)
+    auto_html (1.6.2)
+      redcarpet (~> 3.1)
+      rinku (~> 1.5.0)
     aws-s3 (0.6.3)
       builder
       mime-types
@@ -184,9 +187,11 @@ GEM
     rake (10.1.1)
     rdoc (4.1.1)
       json (~> 1.4)
+    redcarpet (3.1.1)
     redis (3.0.7)
     redis-namespace (1.4.1)
       redis (~> 3.0.4)
+    rinku (1.5.1)
     rmagick (2.13.2)
     rspec-core (2.14.7)
     rspec-expectations (2.14.5)
@@ -265,6 +270,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  auto_html (= 1.6.2)
   aws-s3
   better_errors
   binding_of_caller

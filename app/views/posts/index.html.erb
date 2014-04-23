@@ -29,6 +29,7 @@
           <img class="imageContainer" src="https://s3.amazonaws.com/goodevil/<%=post.photo.file.original_filename%>" id="news-feed-image">
           <br>
           <% end %>
+          <%= post.link_html if post.link? %>
           <div id="chartContainer_<%=post.id%>">
           </div>
           

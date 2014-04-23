@@ -19,7 +19,7 @@ class PostsController < ApplicationController
   end
 
   def create
-    post_params = params.require(:post).permit(:text_overlay, :photo, :photo_link)
+    post_params = params.require(:post).permit(:text_overlay, :photo, :photo_link, :link)
     post = Post.create(post_params)
 
     if post.text_overlay.nil?
